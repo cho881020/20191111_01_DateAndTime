@@ -31,4 +31,7 @@ class SchduleTypeSpinnerAdapter(context:Context, res:Int, list:ArrayList<Schedul
     }
 
 
+
+
+
 }
