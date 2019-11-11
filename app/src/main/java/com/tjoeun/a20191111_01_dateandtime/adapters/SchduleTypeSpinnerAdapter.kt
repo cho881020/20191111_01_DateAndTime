@@ -21,7 +21,7 @@ class SchduleTypeSpinnerAdapter(context:Context, res:Int, list:ArrayList<Schedul
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         var tempRow = convertView
         if (tempRow == null) {
-            tempRow = inf.inflate(R.layout.schedule_type_list_item, null)
+            tempRow = inf.inflate(R.layout.schedule_type_view_item, null)
         }
 
         var row = tempRow!!
@@ -30,7 +30,17 @@ class SchduleTypeSpinnerAdapter(context:Context, res:Int, list:ArrayList<Schedul
         return  row
     }
 
+    override fun getDropDownView(position: Int, convertView: View?, parent: ViewGroup): View {
+        var tempRow = convertView
+        if (tempRow == null) {
+            tempRow = inf.inflate(R.layout.schedule_type_list_item, null)
+        }
 
+        var row = tempRow!!
+
+
+        return  row
+    }
 
 
 
