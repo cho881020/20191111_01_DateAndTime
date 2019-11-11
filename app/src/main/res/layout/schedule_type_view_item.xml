@@ -9,6 +9,7 @@
         android:orientation="vertical"
         android:gravity="center">
         <TextView
+            android:id="@+id/summaryTxt"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:background="#FF0000"
@@ -17,6 +18,7 @@
             android:text="개인"
             android:textStyle="bold"/>
         <TextView
+            android:id="@+id/typeTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="개인 일정"
